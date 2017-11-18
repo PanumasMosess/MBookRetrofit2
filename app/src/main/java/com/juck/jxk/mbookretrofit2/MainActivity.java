@@ -84,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<DataManager> call, Throwable t) {
                 dialog.dismiss();
+                System.out.println("Failed");
             }
         });
 
