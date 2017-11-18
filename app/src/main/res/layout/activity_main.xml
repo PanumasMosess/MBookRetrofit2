@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1d1d1"
+    tools:context="com.juck.jxk.mbookretrofit2.MainActivity">
+
+    <GridView
+        android:id="@+id/gridViewList"
+        android:layout_width="0dp"
+        android:layout_height="472dp"
+        android:layout_marginBottom="39dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginStart="17dp"
+        android:numColumns="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></GridView>
+
+</android.support.constraint.ConstraintLayout>
